@@ -25,7 +25,7 @@
 		<carousel name="systemCarousel">
 			<pos>0 0.625</pos>
 			<size>1 0.4</size>
-			<type>horizontal</type>
+			<type>vertialWheel</type>
 			<horizontalOffset>-.275</horizontalOffset>
 			<staticImage>${syslogo}</staticImage>
 			<defaultImage>${syslogo}</defaultImage>
@@ -112,7 +112,7 @@
 			<pos>0.42 0.315</pos>
 			<size>0.13 0.22</size>
 			<origin>0 0</origin>
-		</image>
+		</image>		
 		<video name="clip">
 		<maxSize>.44 .50</maxSize>
 		<pos>.56 .24</pos>

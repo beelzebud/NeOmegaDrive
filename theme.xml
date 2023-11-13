@@ -1,5 +1,6 @@
 <theme>
 	<include>./assets/sysdata/${system.theme}.xml</include>
+	<include>./assets/sysdata/_default.xml</include>
 	
 	<variables>
 		<systemBg>./assets/systemBg/${system.theme}.png</systemBg>
@@ -29,7 +30,7 @@
 			<horizontalOffset>-.275</horizontalOffset>
 			<staticImage>${syslogo}</staticImage>
 			<defaultImage>${syslogo}</defaultImage>
-			<maxItemCount>3</maxItemCount>
+			<maxItemCount>1</maxItemCount>
 			<itemSize>0.25 0.125</itemSize>
 			<itemScale>1.35</itemScale>
 			<imageInterpolation>linear</imageInterpolation>
@@ -38,12 +39,27 @@
 			<fontSize>0.055</fontSize>
 			<letterCase>uppercase</letterCase>
 			<lineSpacing>1.2</lineSpacing>
+			<reflections>true</reflections>
+			<reflectionsOpacity>.22</reflectionsOpacity>
 			<selectedItemMargins>.02 .02</selectedItemMargins>
 			<!-- <imageBrightness>.25</imageBrightness> -->
-			<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
-			<unfocusedItemDimming>.5</unfocusedItemDimming>
+			<unfocusedItemOpacity>0.8</unfocusedItemOpacity>
+			<unfocusedItemDimming>.8</unfocusedItemDimming>
 			<fastScrolling>true</fastScrolling>
 		</carousel>
+      <text name="system-description">
+         <origin>0.5 0</origin>
+         <pos>0.2 0.52</pos>
+         <size>0.25 0.25</size>
+         <fontPath>${gamelistFont}</fontPath>
+         <fontSize>0.02</fontSize>
+         <text>${systemDescription}</text>
+         <verticalAlignment>top</verticalAlignment>
+         <horizontalAlignment>center</horizontalAlignment>
+         <container>true</container>
+         <containerScrollSpeed>0.6</containerScrollSpeed>
+         <color>515151</color>
+      </text>
 	</view>
 	
 	<view name="gamelist">
