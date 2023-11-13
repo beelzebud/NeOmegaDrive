@@ -44,6 +44,21 @@
 			<unfocusedItemDimming>.5</unfocusedItemDimming>
 			<fastScrolling>true</fastScrolling>
 		</carousel>
+      <text name="system-description">
+         <origin>0.5 0</origin>
+         <pos>0.2 0.32</pos>
+         <size>0.3 0.3</size>
+         <fontPath>${mainFont}</fontPath>
+         <fontSize>0.02</fontSize>
+		 <lineSpacing>1.2</lineSpacing>
+		 <metadata>${systemDescription}</metadata>
+		 <text>${systemDescription}</text>
+         <verticalAlignment>top</verticalAlignment>
+         <horizontalAlignment>center</horizontalAlignment>
+         <container>true</container>
+         <containerScrollSpeed>0.6</containerScrollSpeed>
+         <color>ffffff</color>
+      </text>
 	</view>
 	
 	<view name="gamelist">
@@ -109,13 +124,13 @@
         </datetime>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.4 0.23</pos>
+			<pos>0.43 0.23</pos>
 			<size>0.165 0.25</size>
 			<origin>0 0</origin>
 		</image>
 		<video name="clip">
-		<maxSize>.44 .50</maxSize>
-		<pos>.56 .27</pos>
+		<maxSize>.29 .33</maxSize>
+		<pos>.64 .3</pos>
 		</video>
 	</view>
 </theme>
