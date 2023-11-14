@@ -84,13 +84,13 @@
 		</textlist>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.65 0.455</pos>
+			<pos>0.61 0.455</pos>
 			<size>0.165 0.25</size>
 			<origin>0 0</origin>
 		</image>
 		<video name="clip">
-		<maxSize>.44 .50</maxSize>
-		<pos>.56 .27</pos>
+		<maxSize>.28 .32</maxSize>
+		<pos>.58 .15</pos>
 		</video>
 	</view>
 </theme>
