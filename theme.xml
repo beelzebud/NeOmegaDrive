@@ -1,6 +1,6 @@
 <theme>
 	<include>./assets/sysdata/${system.theme}.xml</include>
-	
+		
 	<variables>
 		<systemBg>./assets/systemBg/${system.theme}.png</systemBg>
 		<gameListBg>./assets/gamelistBG/${system.theme}.png</gameListBg>
@@ -132,7 +132,9 @@
 		</image>
 		<video name="clip">
 		<maxSize>.44 .50</maxSize>
-		<pos>.56 .27</pos>
+		<pos>.56 .24</pos>
+		<videoCornerRadius>.05</videoCornerRadius>
+		<defaultImage>./../assets/notfound.png</defaultImage>
 		</video>
 	</view>
 </theme>

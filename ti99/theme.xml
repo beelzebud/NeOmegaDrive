@@ -69,7 +69,7 @@
 			<zIndex>30</zIndex>
 		</image>
 		<textlist name="gamelist">
-			<selectorHeight>0.05</selectorHeight>
+			<selectorHeight>0.035</selectorHeight>
 			<selectorColor>00000060</selectorColor>
 			<fontPath>${gamelistFont}</fontPath>
 			<fontSize>0.028</fontSize>
@@ -91,6 +91,8 @@
 		<video name="clip">
 		<maxSize>.17 .17</maxSize>
 		<pos>.5 .15</pos>
+		<videoCornerRadius>.02</videoCornerRadius>
+		<defaultImage>./../assets/notfound.png</defaultImage>
 		</video>
 	</view>
 	</theme>

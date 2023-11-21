@@ -85,6 +85,8 @@
 		<video name="clip">
 		<maxSize>.34 .50</maxSize>
 		<pos>.56 .24</pos>
+		<videoCornerRadius>.05</videoCornerRadius>
+		<defaultImage>./../assets/notfound.png</defaultImage>
 		</video>
 	</view>
 </theme>
