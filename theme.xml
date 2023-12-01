@@ -35,7 +35,7 @@
 			<itemScale>1.35</itemScale>
 			<imageInterpolation>linear</imageInterpolation>
 			<color>00000000</color>
-			<textColor>BBBBBB</textColor>
+			<textColor>78fb5c</textColor>
 			<fontSize>0.055</fontSize>
 			<letterCase>uppercase</letterCase>
 			<lineSpacing>1.2</lineSpacing>
@@ -72,14 +72,14 @@
 			<zIndex>30</zIndex>
 		</image>
 		<textlist name="gamelist">
-			<selectorHeight>0.05</selectorHeight>
+			<selectorHeight>0.025</selectorHeight>
 			<selectorColor>00000060</selectorColor>
 			<fontPath>${gamelistFont}</fontPath>
 			<fontSize>0.028</fontSize>
 			<lineSpacing>1</lineSpacing>
-			<primaryColor>ffffff6a</primaryColor>
-			<secondaryColor>ffff00</secondaryColor>
-			<selectedColor>ffffffda</selectedColor>
+			<primaryColor>58ff4f</primaryColor>
+			<secondaryColor>7be675</secondaryColor>
+			<selectedColor>58ff4f</selectedColor>
 			<size>0.26 0.48</size>
 			<pos>0.200 0.60</pos>
 			<horizontalMargin>0.01</horizontalMargin>
@@ -135,7 +135,7 @@
 			<maxSize>.40 .40</maxSize>
 			<pos>.545 .315</pos>
 			<videoCornerRadius>.05</videoCornerRadius>
-			<defaultImage>./../assets/notfound.png</defaultImage>
+			<defaultImage>./assets/notfound.png</defaultImage>
 		</video>
 	</view>
 </theme>
