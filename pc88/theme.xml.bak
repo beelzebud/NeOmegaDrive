@@ -29,7 +29,7 @@
 			<horizontalOffset>-.275</horizontalOffset>
 			<staticImage>${syslogo}</staticImage>
 			<defaultImage>${syslogo}</defaultImage>
-			<maxItemCount>3</maxItemCount>
+			<maxItemCount>1</maxItemCount>
 			<itemSize>0.25 0.125</itemSize>
 			<itemScale>1.35</itemScale>
 			<imageInterpolation>linear</imageInterpolation>
@@ -38,10 +38,12 @@
 			<fontSize>0.055</fontSize>
 			<letterCase>uppercase</letterCase>
 			<lineSpacing>1.2</lineSpacing>
+			<reflections>true</reflections>
+			<reflectionsOpacity>.22</reflectionsOpacity>
 			<selectedItemMargins>.02 .02</selectedItemMargins>
 			<!-- <imageBrightness>.25</imageBrightness> -->
-			<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
-			<unfocusedItemDimming>.5</unfocusedItemDimming>
+			<unfocusedItemOpacity>0.8</unfocusedItemOpacity>
+			<unfocusedItemDimming>.8</unfocusedItemDimming>
 			<fastScrolling>true</fastScrolling>
 		</carousel>
       <text name="system-description">
@@ -78,20 +80,20 @@
 			<secondaryColor>ffff00</secondaryColor>
 			<selectedColor>ffffffda</selectedColor>
 			<size>0.26 0.48</size>
-			<pos>0.48 0.46</pos>
+			<pos>0.5 0.45</pos>
 			<horizontalMargin>0.01</horizontalMargin>
 			<origin>0.5 0.75</origin>
 		</textlist>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.61 0.455</pos>
-			<size>0.165 0.25</size>
+			<pos>0.55 0.27</pos>
+			<size>0.15 0.2</size>
 			<origin>0 0</origin>
 		</image>
 		<video name="clip">
 		<delay>1.5</delay>
-		<maxSize>.28 .32</maxSize>
-		<pos>.55 .15</pos>
+		<maxSize>.44 .50</maxSize>
+		<pos>.56 .27</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>./../assets/notfound.png</defaultImage>
 		</video>

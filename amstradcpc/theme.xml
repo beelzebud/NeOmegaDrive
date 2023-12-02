@@ -69,7 +69,7 @@
 			<zIndex>30</zIndex>
 		</image>
 		<textlist name="gamelist">
-			<selectorHeight>0.05</selectorHeight>
+			<selectorHeight>0.032</selectorHeight>
 			<selectorColor>00000060</selectorColor>
 			<fontPath>${gamelistFont}</fontPath>
 			<fontSize>0.028</fontSize>
@@ -77,20 +77,21 @@
 			<primaryColor>ffffff6a</primaryColor>
 			<secondaryColor>ffff00</secondaryColor>
 			<selectedColor>ffffffda</selectedColor>
-			<size>0.26 0.48</size>
-			<pos>0.48 0.46</pos>
+			<size>0.26 0.4</size>
+			<pos>0.53 0.39</pos>
 			<horizontalMargin>0.01</horizontalMargin>
 			<origin>0.5 0.75</origin>
 		</textlist>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.65 0.455</pos>
-			<size>0.165 0.25</size>
+			<pos>0.58 0.45</pos>
+			<size>0.2 0.2</size>
 			<origin>0 0</origin>
 		</image>
 		<video name="clip">
-		<maxSize>.44 .50</maxSize>
-		<pos>.56 .27</pos>
+		<delay>1.5</delay>
+		<maxSize>.3 .3</maxSize>
+		<pos>.55 .12</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>./../assets/notfound.png</defaultImage>
 		</video>

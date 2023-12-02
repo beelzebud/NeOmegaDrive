@@ -1,4 +1,4 @@
-<theme>
+s<theme>
 	<include>./../assets/sysdata/${system.theme}.xml</include>
 	
 	<variables>
@@ -89,10 +89,11 @@
 			<origin>0 0</origin>
 		</image>
 		<video name="clip">
+		<delay>1.5</delay>
 		<maxSize>.20 .20</maxSize>
 		<pos>.55 .12</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
-		<defaultImage>./../assets/notfound.png</defaultImage>
+		<defaultImage>./../assets/notfound.png</defaultImage
 		</video>
 	</view>
 </theme>

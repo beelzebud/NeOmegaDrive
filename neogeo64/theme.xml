@@ -131,6 +131,7 @@
 			<origin>0 0</origin>
 		</image>
 		<video name="clip">
+		<delay>1.5</delay>
 		<maxSize>.40 .40</maxSize>
 		<pos>.545 .315</pos>
 		<videoCornerRadius>.05</videoCornerRadius>

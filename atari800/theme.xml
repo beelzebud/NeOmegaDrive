@@ -89,8 +89,9 @@
 			<origin>0 0</origin>
 		</image>
 		<video name="clip">
+		<delay>1.5</delay>
 		<maxSize>.28 .32</maxSize>
-		<pos>.58 .15</pos>
+		<pos>.55 .15</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>./../assets/notfound.png</defaultImage>
 		</video>

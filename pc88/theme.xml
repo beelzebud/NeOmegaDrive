@@ -79,20 +79,21 @@
 			<primaryColor>ffffff6a</primaryColor>
 			<secondaryColor>ffff00</secondaryColor>
 			<selectedColor>ffffffda</selectedColor>
-			<size>0.26 0.48</size>
-			<pos>0.5 0.45</pos>
+			<size>0.19 0.42</size>
+			<pos>0.47 0.4</pos>
 			<horizontalMargin>0.01</horizontalMargin>
 			<origin>0.5 0.75</origin>
 		</textlist>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.55 0.27</pos>
-			<size>0.15 0.2</size>
+			<pos>.52 0.15</pos>
+			<size>0.25 0.25</size>
 			<origin>0 0</origin>
 		</image>
 		<video name="clip">
-		<maxSize>.44 .50</maxSize>
-		<pos>.56 .27</pos>
+		<delay>1.5</delay>
+		<maxSize>.3 .4</maxSize>
+		<pos>.01 .27</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>./../assets/notfound.png</defaultImage>
 		</video>
