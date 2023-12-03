@@ -85,8 +85,8 @@
 		</textlist>
 		<video name="clip">
 		<delay>1.5</delay>
-		<maxSize>.34 .50</maxSize>
-		<pos>.56 .24</pos>
+		<maxSize>.38 .58</maxSize>
+		<pos>.56 .19</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>${minisys}</defaultImage>
 		</video>

@@ -134,10 +134,10 @@
 		</image>
 		<video name="clip">
 		<delay>1.5</delay>
-		<maxSize>.41 .41</maxSize>
+		<maxSize>.36 .36</maxSize>
 		<pos>.56 .27</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
-		<defaultImage>${minisys}</defaultImage>
+		<defaultImage>${syslogo}</defaultImage>
 		</video>
 	</view>
 </theme>

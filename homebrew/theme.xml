@@ -139,7 +139,7 @@
 			<pos>.565 .315</pos>
 			<videoCornerRadius>.05</videoCornerRadius>
 			<videoCornerRadius>.05</videoCornerRadius>
-			<defaultImage>${minisys}</defaultImage>
+			<defaultImage>${syslogo}</defaultImage>
 		</video>
 	</view>
 </theme>
