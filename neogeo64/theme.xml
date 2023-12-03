@@ -12,6 +12,7 @@
 		<sysFont2>./../assets/fonts/bold.ttf</sysFont2>
 		<sysData>./../assets/sysdata/${system.theme}.xml</sysData>
 		<syslogo>./../assets/logos/${system.theme}.png</syslogo>
+		<minisys>./../assets/minis/${system.theme}.png</minisys>
 	</variables>
 	
 	<view name="system">
@@ -129,6 +130,7 @@
 			<pos>0.355 0.27</pos>
 			<size>0.165 0.25</size>
 			<origin>0 0</origin>
+			<default>${syslogo}</default>
 		</image>
 		<video name="clip">
 		<delay>1.5</delay>
