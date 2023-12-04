@@ -134,8 +134,8 @@
 			<default>${syslogo}</default>
 		</image>
 		<video name="clip">
-			<maxSize>.40 .47</maxSize>
-			<pos>.565 .25</pos>
+			<size>.38 .48</size>
+			<pos>.565 .235</pos>
 			<videoCornerRadius>.05</videoCornerRadius>			 
 			<defaultImage>${minisys}</defaultImage>
 		</video>
