@@ -137,7 +137,7 @@
 		<maxSize>.40 .40</maxSize>
 		<pos>.545 .315</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
-		<defaultImage>./../../assets/notfound.png</defaultImage>
+		<defaultImage>${syslogo}</defaultImage>
 		</video>
 	</view>
 </theme>
