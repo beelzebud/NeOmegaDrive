@@ -11,7 +11,7 @@
 		<sysFont1>./../assets/fonts/medium.otf</sysFont1>
 		<sysFont2>./../assets/fonts/bold.ttf</sysFont2>
 		<sysData>./../assets/sysdata/${system.theme}.xml</sysData>
-		<syslogo>./../assets/logos/${system.theme}.png</syslogo>
+		<syslogo>./../assets/logos/${system.theme}.svg</syslogo>
 		<minisys>./../assets/minis/${system.theme}.png</minisys>
 	</variables>
 	
@@ -137,7 +137,7 @@
 		<maxSize>.40 .40</maxSize>
 		<pos>.545 .315</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
-		<defaultImage>${syslogo}</defaultImage>
+		<defaultImage>${minisys}</defaultImage>
 		</video>
 	</view>
 </theme>
