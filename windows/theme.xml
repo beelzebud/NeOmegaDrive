@@ -95,7 +95,7 @@
             <defaultValue>:space:</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.19 0.75</pos>
+            <pos>0.140 .755</pos>
             <size>0 0</size>
             <origin>0.5 0</origin>
 		</text>
@@ -107,8 +107,8 @@
             <letterCase>capitalize</letterCase>
             <defaultValue>:space:</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
-            <lineSpacing>0.95</lineSpacing>
-            <pos>0.27 0.725</pos>
+            <lineSpacing>1</lineSpacing>
+            <pos>0.23 0.73</pos>
             <size>0.03 0.1</size>
             <origin>0.5 0</origin>
         </text>
@@ -122,8 +122,8 @@
             <letterCase>capitalize</letterCase>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.4 0.8</pos>
-            <size>0.05 0.06</size>
+            <pos>0.32 0.81</pos>
+            <size>0.06 0.06</size>
             <origin>0.5 1</origin>
         </datetime>
 		<image name="snap">
