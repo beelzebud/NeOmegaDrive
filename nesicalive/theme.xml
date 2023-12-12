@@ -127,14 +127,14 @@
         </datetime>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.355 0.27</pos>
+			<pos>0.355 0.26</pos>
 			<size>0.165 0.25</size>
 			<origin>0 0</origin>
 			<default>${syslogo}</default>
 		</image>
 		<video name="clip">
 		<delay>1.5</delay>
-		<maxSize>.4 .4</maxSize>
+		<size>.38 .47</size>
 		<pos>.56 .295</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>${minisys}</defaultImage>

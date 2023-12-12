@@ -15,10 +15,10 @@
         <selectable>true</selectable>
         <systemToSystem>slide</systemToSystem>
         <systemToGamelist>slide</systemToGamelist>
-        <gamelistToGamelist>slide</gamelistToGamelist>
+        <gamelistToGamelist>fade</gamelistToGamelist>
         <gamelistToSystem>slide</gamelistToSystem>
-        <startupToSystem>slide</startupToSystem>
-        <startupToGamelist>slide</startupToGamelist>
+        <startupToSystem>fade</startupToSystem>
+        <startupToGamelist>fade</startupToGamelist>
     </transitions>
     <transitions name="instant">
         <label>Instant</label>
