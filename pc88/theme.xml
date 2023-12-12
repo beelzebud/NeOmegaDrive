@@ -88,13 +88,13 @@
 		<image name="snap">
 			<imageType>image</imageType>
 			<pos>.52 0.15</pos>
-			<size>0.25 0.25</size>
+			<size>0.2 0.22</size>
 			<origin>0 0</origin>
 			<default>${syslogo}</default>
 		</image>
 		<video name="clip">
 		<delay>1.5</delay>
-		<maxSize>.3 .4</maxSize>
+		<size>.3 .3</size>
 		<pos>.01 .27</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>${minisys}</defaultImage>

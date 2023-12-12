@@ -1,18 +1,19 @@
 <theme>
-	<include>./assets/sysdata/${system.theme}.xml</include>
+	<include>./../assets/sysdata/${system.theme}.xml</include>
 		
 	<variables>
-		<systemBg>./assets/systemBg/${system.theme}.png</systemBg>
-		<gameListBg>./assets/gamelistBG/${system.theme}.png</gameListBg>
-		<mainFont>./assets/fonts/aldrich.ttf</mainFont>
+		<systemBg>./../assets/systemBg/${system.theme}.png</systemBg>
+		<gameListBg>./../assets/gamelistBG/${system.theme}.png</gameListBg>
+		<mainFont>./../assets/fonts/aldrich.ttf</mainFont>
         <mainFontSize>0.025</mainFontSize>
-		<gamelistFont>./assets/fonts/pixel3.ttf</gamelistFont>
-        <secondFont>./assets/fonts/arcade.ttf</secondFont>
-		<sysFont1>./assets/fonts/medium.otf</sysFont1>
-		<sysFont2>./assets/fonts/bold.ttf</sysFont2>
-		<sysData>./assets/sysdata/${system.theme}.xml</sysData>
-		<syslogo>./assets/logos/${system.theme}.svg</syslogo>
-		<minisys>./assets/minis/${system.theme}.png</minisys>
+		<gamelistFont>./../assets/fonts/pixel3.ttf</gamelistFont>
+        <secondFont>./../assets/fonts/arcade.ttf</secondFont>
+		<sysFont1>./../assets/fonts/medium.otf</sysFont1>
+		<sysFont2>./../assets/fonts/bold.ttf</sysFont2>
+		<sysData>./../assets/sysdata/${system.theme}.xml</sysData>
+		<syslogo>./../assets/logos/${system.theme}.svg</syslogo>
+		<sysscreen>./../assets/</sysscreen>
+		<minisys>./../assets/minis/${system.theme}.png</minisys>
 	</variables>
 	
 	<view name="system">
@@ -42,6 +43,7 @@
 			<reflections>true</reflections>
 			<reflectionsOpacity>.22</reflectionsOpacity>
 			<selectedItemMargins>.02 .02</selectedItemMargins>
+			<!-- <imageBrightness>.25</imageBrightness> -->
 			<unfocusedItemOpacity>0.8</unfocusedItemOpacity>
 			<unfocusedItemDimming>.8</unfocusedItemDimming>
 			<fastScrolling>true</fastScrolling>
@@ -71,8 +73,8 @@
 			<zIndex>30</zIndex>
 		</image>
 		<textlist name="gamelist">
-			<selectorHeight>0.028</selectorHeight>
-			<selectorColor>228B22</selectorColor>
+			<selectorHeight>0.025</selectorHeight>
+			<selectorColor>00000060</selectorColor>
 			<fontPath>${gamelistFont}</fontPath>
 			<fontSize>0.028</fontSize>
 			<lineSpacing>1</lineSpacing>
@@ -80,7 +82,7 @@
 			<secondaryColor>7be675</secondaryColor>
 			<selectedColor>58ff4f</selectedColor>
 			<size>0.26 0.48</size>
-			<pos>0.200 0.62</pos>
+			<pos>0.210 0.60</pos>
 			<horizontalMargin>0.01</horizontalMargin>
 			<origin>0.5 0.75</origin>
 		</textlist>
@@ -93,7 +95,7 @@
             <defaultValue>:space:</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.41 0.55</pos>
+            <pos>0.19 0.75</pos>
             <size>0 0</size>
             <origin>0.5 0</origin>
 		</text>
@@ -106,7 +108,7 @@
             <defaultValue>:space:</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.485 0.525</pos>
+            <pos>0.27 0.725</pos>
             <size>0.03 0.1</size>
             <origin>0.5 0</origin>
         </text>
@@ -120,21 +122,21 @@
             <letterCase>capitalize</letterCase>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.385 0.67</pos>
+            <pos>0.4 0.8</pos>
             <size>0.05 0.06</size>
             <origin>0.5 1</origin>
         </datetime>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.365 0.27</pos>
-			<size>0.14 0.25</size>
+			<pos>0.5 0.1</pos>
+			<size>0.165 0.25</size>
 			<origin>0 0</origin>
 			<default>${syslogo}</default>
 		</image>
 		<video name="clip">
-			<size>.38 .49</size>
-			<pos>.555 .275</pos>
-			<videoCornerRadius>.05</videoCornerRadius>			 
+			<maxSize>.30 .40</maxSize>
+			<pos>.365 .415</pos>
+			<videoCornerRadius>.05</videoCornerRadius>
 			<defaultImage>${minisys}</defaultImage>
 		</video>
 	</view>
