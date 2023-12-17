@@ -26,7 +26,7 @@
 		<carousel name="systemCarousel">
 			<pos>0 0.625</pos>
 			<size>1 0.4</size>
-			<type>vertialWheel</type>
+			<type>horizontal</type>
 			<horizontalOffset>-.275</horizontalOffset>
 			<staticImage>${syslogo}</staticImage>
 			<defaultImage>${syslogo}</defaultImage>
@@ -69,8 +69,14 @@
 			<path>${gameListBg}</path>
 			<zIndex>30</zIndex>
 		</image>
+		<image name="logo">
+			<pos>.35 .05</pos>
+			<size>.25 .1</size>
+			<path>${syslogo}</path>
+			<zIndex>40</zIndex>
+		</image>
 		<textlist name="gamelist">
-			<selectorHeight>0.05</selectorHeight>
+			<selectorHeight>0.03</selectorHeight>
 			<selectorColor>00000060</selectorColor>
 			<fontPath>${gamelistFont}</fontPath>
 			<fontSize>0.028</fontSize>
@@ -78,8 +84,8 @@
 			<primaryColor>ffffff6a</primaryColor>
 			<secondaryColor>ffff00</secondaryColor>
 			<selectedColor>ffffffda</selectedColor>
-			<size>0.27 0.38</size>
-			<pos>0.24 0.60</pos>
+			<size>0.24 0.5</size>
+			<pos>0.2 0.62</pos>
 			<horizontalMargin>0.01</horizontalMargin>
 			<origin>0.5 0.75</origin>
 		</textlist>
@@ -92,7 +98,7 @@
             <defaultValue>:space:</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.46 0.59</pos>
+            <pos>0.41 0.63</pos>
             <size>0 0</size>
             <origin>0.5 0</origin>
 		</text>
@@ -105,7 +111,7 @@
             <defaultValue>:space:</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.56 0.565</pos>
+            <pos>0.5 0.605</pos>
             <size>0.03 0.1</size>
             <origin>0.5 0</origin>
         </text>
@@ -119,20 +125,21 @@
             <letterCase>capitalize</letterCase>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.44 0.7</pos>
-            <size>0.05 0.06</size>
+            <pos>0.4 0.75</pos>
+            <size>0.07 0.06</size>
             <origin>0.5 1</origin>
         </datetime>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.42 0.315</pos>
+			<pos>0.37 0.315</pos>
 			<size>0.13 0.22</size>
 			<origin>0 0</origin>
 			<default>${syslogo}</default>
-		</image>		
+		</image>
 		<video name="clip">
-		<maxSize>.25 .35</maxSize>
-		<pos>.62 .33</pos>
+		<delay>1.5</delay>
+		<maxSize>.38 .45</maxSize>
+		<pos>.57 .27</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>${minisys}</defaultImage>
 		</video>

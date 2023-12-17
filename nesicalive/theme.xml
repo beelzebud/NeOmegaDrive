@@ -30,7 +30,7 @@
 			<horizontalOffset>-.275</horizontalOffset>
 			<staticImage>${syslogo}</staticImage>
 			<defaultImage>${syslogo}</defaultImage>
-			<maxItemCount>1</maxItemCount>
+			<maxItemCount>3</maxItemCount>
 			<itemSize>0.25 0.125</itemSize>
 			<itemScale>1.35</itemScale>
 			<imageInterpolation>linear</imageInterpolation>
@@ -39,12 +39,10 @@
 			<fontSize>0.055</fontSize>
 			<letterCase>uppercase</letterCase>
 			<lineSpacing>1.2</lineSpacing>
-			<reflections>true</reflections>
-			<reflectionsOpacity>.22</reflectionsOpacity>
 			<selectedItemMargins>.02 .02</selectedItemMargins>
 			<!-- <imageBrightness>.25</imageBrightness> -->
-			<unfocusedItemOpacity>0.8</unfocusedItemOpacity>
-			<unfocusedItemDimming>.8</unfocusedItemDimming>
+			<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+			<unfocusedItemDimming>.5</unfocusedItemDimming>
 			<fastScrolling>true</fastScrolling>
 		</carousel>
       <text name="system-description">
@@ -71,8 +69,14 @@
 			<path>${gameListBg}</path>
 			<zIndex>30</zIndex>
 		</image>
+		<image name="logo">
+			<pos>.35 .05</pos>
+			<size>.25 .1</size>
+			<path>${syslogo}</path>
+			<zIndex>40</zIndex>
+		</image>
 		<textlist name="gamelist">
-			<selectorHeight>0.05</selectorHeight>
+			<selectorHeight>0.03</selectorHeight>
 			<selectorColor>00000060</selectorColor>
 			<fontPath>${gamelistFont}</fontPath>
 			<fontSize>0.028</fontSize>
@@ -80,8 +84,8 @@
 			<primaryColor>ffffff6a</primaryColor>
 			<secondaryColor>ffff00</secondaryColor>
 			<selectedColor>ffffffda</selectedColor>
-			<size>0.26 0.48</size>
-			<pos>0.200 0.60</pos>
+			<size>0.24 0.5</size>
+			<pos>0.2 0.62</pos>
 			<horizontalMargin>0.01</horizontalMargin>
 			<origin>0.5 0.75</origin>
 		</textlist>
@@ -94,7 +98,7 @@
             <defaultValue>:space:</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.41 0.55</pos>
+            <pos>0.41 0.63</pos>
             <size>0 0</size>
             <origin>0.5 0</origin>
 		</text>
@@ -107,7 +111,7 @@
             <defaultValue>:space:</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.485 0.525</pos>
+            <pos>0.5 0.605</pos>
             <size>0.03 0.1</size>
             <origin>0.5 0</origin>
         </text>
@@ -121,21 +125,21 @@
             <letterCase>capitalize</letterCase>
             <horizontalAlignment>left</horizontalAlignment>
             <lineSpacing>0.95</lineSpacing>
-            <pos>0.385 0.67</pos>
-            <size>0.05 0.06</size>
+            <pos>0.4 0.75</pos>
+            <size>0.07 0.06</size>
             <origin>0.5 1</origin>
         </datetime>
 		<image name="snap">
 			<imageType>image</imageType>
-			<pos>0.355 0.26</pos>
-			<size>0.165 0.25</size>
+			<pos>0.37 0.315</pos>
+			<size>0.13 0.22</size>
 			<origin>0 0</origin>
 			<default>${syslogo}</default>
 		</image>
 		<video name="clip">
 		<delay>1.5</delay>
-		<size>.38 .47</size>
-		<pos>.56 .295</pos>
+		<maxSize>.38 .45</maxSize>
+		<pos>.57 .27</pos>
 		<videoCornerRadius>.05</videoCornerRadius>
 		<defaultImage>${minisys}</defaultImage>
 		</video>

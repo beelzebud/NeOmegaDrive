@@ -132,11 +132,17 @@
 			<origin>0 0</origin>
 			<default>${syslogo}</default>
 		</image>
+		<image name="logo">
+			<pos>.35 .05</pos>
+			<size>.25 .1</size>
+			<path>${syslogo}</path>
+			<zIndex>40</zIndex>
+		</image>
 		<video name="clip">
-		<delay>1.5</delay>
-		<maxSize>.44 .50</maxSize>
-		<pos>.56 .27</pos>
-		<videoCornerRadius>.05</videoCornerRadius>
+			<delay>1.5</delay>
+			<maxSize>.44 .50</maxSize>
+			<pos>.56 .27</pos>
+			<videoCornerRadius>.05</videoCornerRadius>
 			<defaultImage>${minisys}</defaultImage>
 		</video>
 	</view>

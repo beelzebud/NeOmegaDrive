@@ -131,6 +131,12 @@
 			<origin>0 0</origin>
 			<default>${syslogo}</default>
 		</image>
+		<image name="logo">
+			<pos>.35 .05</pos>
+			<size>.25 .1</size>
+			<path>${syslogo}</path>
+			<zIndex>40</zIndex>
+		</image>
 		<video name="clip">
 			<size>.38 .49</size>
 			<pos>.555 .275</pos>
